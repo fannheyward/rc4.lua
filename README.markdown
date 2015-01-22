@@ -1,6 +1,6 @@
 RC4 bindings for LuaJIT with FFI.
 
-```
+```lua
 local rc4 = require 'rc4'
 
 local encryption_text = rc4.crypt('origin_plain_text', 'encryption_key')
